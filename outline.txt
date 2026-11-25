@@ -1,0 +1,24 @@
+Group 5
+
+Salvador, Allen Glenn B.
+Teves, Darren Neil P.
+Rocio, Kelvin Clyde G.
+
+Title: Web-Based Inventory, Ordering & Sales Management System
+
+System Features and Modules
+  A. Sign up Form
+  1. Create Account
+  2. Full name
+  3. Email Address & Username, Password
+  4. Confirm Password
+
+  B. Sign-In Form
+  1. Sign In 
+  2. Username 
+  3. Password
+
+  C. Dashboard
+  1. Inventory
+  2. Orders
+  3. Sales & Reports
