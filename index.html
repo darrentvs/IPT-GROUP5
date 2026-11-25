@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventory Manager</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="login-screen">
+    <section class="login-card">
+      <h1>Inventory Manager</h1>
+
+      <div class="auth-tabs">
+        <button id="show-signin" class="auth-tab active" type="button">
+          Sign in
+        </button>
+        <button id="show-signup" class="auth-tab" type="button">
+          Sign up
+        </button>
+      </div>
+
+      <form id="signin-form" class="auth-form">
+        <label for="signin-username">Username</label>
+        <input id="signin-username" autocomplete="username" required>
+
+        <label for="signin-password">Password</label>
+        <input id="signin-password" type="password" autocomplete="current-password" required>
+
+        <button class="button-primary" type="submit">Sign in</button>
+      </form>
+
+      <form id="signup-form" class="auth-form" hidden>
+        <label for="signup-username">Username</label>
+        <input id="signup-username" minlength="3" autocomplete="username" required>
+
+        <label for="signup-password">Password</label>
+        <input id="signup-password" type="password" minlength="8"
+          autocomplete="new-password" required>
+
+        <label for="confirm-password">Confirm password</label>
+        <input id="confirm-password" type="password" minlength="8"
+          autocomplete="new-password" required>
+
+        <p id="signup-error" class="error-message"></p>
+        <button class="button-primary" type="submit">Create account</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
